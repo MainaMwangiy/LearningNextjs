@@ -4,11 +4,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: {
-        template: '%s | Lango Dashboard',
+        template: 'Lango Dashboard',
         default: 'Lango Dashboard',
     },
-    description: 'The official Next.js Learn Dashboard built with App Router.',
-    metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+    description: 'Lango database management',
+    metadataBase: new URL('https://lango-dashboard.vercel.app/'),
 };
 
 export default function RootLayout({
